@@ -1,7 +1,8 @@
 import React from "react";
 
 /* -------------------- Section 01 -------------------- */
-import UseState from "./components/Section 01/02_UseState";
+// import UseState from "./components/Section 01/02_UseState";
+import UseReducer from "./components/Section 01/03_UseReducer";
 
 function App() {
   return (
@@ -10,7 +11,9 @@ function App() {
 
       {/* -------------------- Section 01 -------------------- */}
       <>
-        <UseState />
+        {/* <UseState /> */}
+        
+        <UseReducer />
       </>
     </div>
   );
