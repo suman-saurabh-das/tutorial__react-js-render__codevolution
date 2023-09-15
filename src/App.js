@@ -1,6 +1,7 @@
 import React from "react";
 
 /* -------------------- Section 01 -------------------- */
+import UseState from "./components/Section 01/02_UseState";
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
 
       {/* -------------------- Section 01 -------------------- */}
       <>
-        
+        <UseState />
       </>
     </div>
   );
