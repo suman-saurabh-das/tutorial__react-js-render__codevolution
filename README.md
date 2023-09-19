@@ -13,6 +13,14 @@ React-JS Render Tutorial - by Codevolution
 ## Course Content
 
 - Section 01
+  - Rendering
+  - useState & useReducer rendering & early bailout
+  - State immutability of arrays & objects
+  - Parent & Child rendering
+  - Same element reference optimization
+  - React memo optimization
+
+- Section 02
   - 
 
 ## Technologies

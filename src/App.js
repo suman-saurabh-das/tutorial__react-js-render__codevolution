@@ -9,7 +9,10 @@ import React from "react";
 // import Parent2 from "./components/Section 01/06_Parent2";
 // import Child2 from "./components/Section 01/06_Child2";
 // import GrandParent2 from "./components/Section 01/06_GrandParent2";
-import Parent3 from "./components/Section 01/07_Parent3";
+// import Parent3 from "./components/Section 01/07_Parent3";
+
+/* -------------------- Section 02 -------------------- */
+import Parent4 from "./components/Section 02/09_Parent4";
 
 function App() {
   return (
@@ -33,7 +36,12 @@ function App() {
         </Parent2> */}
         {/* <GrandParent2 /> */}
 
-        <Parent3 />
+        {/* <Parent3 /> */}
+      </>
+
+      {/* -------------------- Section 02 -------------------- */}
+      <>
+        <Parent4 />
       </>
     </div>
   );
