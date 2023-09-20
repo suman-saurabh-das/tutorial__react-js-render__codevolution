@@ -14,7 +14,8 @@ import React from "react";
 /* -------------------- Section 02 -------------------- */
 // import Parent4 from "./components/Section 02/09_Parent4";
 // import Parent5 from "./components/Section 02/10_Parent5";
-import Parent6 from "./components/Section 02/11_Parent6";
+// import Parent6 from "./components/Section 02/11_Parent6";
+import Parent7 from "./components/Section 02/12_Parent7";
 
 function App() {
   return (
@@ -47,7 +48,9 @@ function App() {
 
         {/* <Parent5 /> */}
 
-        <Parent6 />
+        {/* <Parent6 /> */}
+
+        <Parent7 />
       </>
     </div>
   );

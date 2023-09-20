@@ -7,8 +7,8 @@ function Child6({ children, name, person }) {
   
   return (
     <div>
-      {children} {name}
-      {/* {person.fName} {person.lName} */}
+      <h4>{children} {name}</h4>
+      {/* <h4>{person.fName} {person.lName}</h4> */}
     </div>
   )
 }
