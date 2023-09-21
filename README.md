@@ -21,7 +21,12 @@ React-JS Render Tutorial - by Codevolution
   - React memo optimization
 
 - Section 02
-  - 
+  - Questions on optimization
+  - Incorrect memo with children
+  - Incorrect memo with impure component
+  - Incorrect memo with props reference
+  - useMemo and useCallback
+  - Context & memo, Context & same element reference
 
 ## Technologies
 
@@ -43,7 +48,7 @@ All files have been created based on my understanding of the videos.
 
 ## Status
 
-- React JS Render is in progress.
+- React JS Render is completed on 21-09-2023.
 
 ## Credits
 

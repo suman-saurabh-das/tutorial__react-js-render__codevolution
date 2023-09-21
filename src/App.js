@@ -17,7 +17,9 @@ import React from "react";
 // import Parent6 from "./components/Section 02/11_Parent6";
 // import Parent7 from "./components/Section 02/12_Parent7";
 // import ParentContext1 from "./components/Section 02/13_ParentContext1";
-import ParentContext2 from "./components/Section 02/14_ParentContext2";
+// import ParentContext2 from "./components/Section 02/14_ParentContext2";
+import ParentContext3 from "./components/Section 02/15_ParentContext3";
+import { ChildA } from "./components/Section 02/15_ChildContext3";
 
 function App() {
   return (
@@ -27,7 +29,7 @@ function App() {
       {/* -------------------- Section 01 -------------------- */}
       <>
         {/* <UseState /> */}
-        
+
         {/* <UseReducer /> */}
 
         {/* <ArrayUseState /> */}
@@ -56,7 +58,11 @@ function App() {
 
         {/* <ParentContext1 /> */}
 
-        <ParentContext2 />
+        {/* <ParentContext2 /> */}
+
+        <ParentContext3>
+          <ChildA />
+        </ParentContext3>
       </>
     </div>
   );
